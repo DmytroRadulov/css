@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/  css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #fdf5e6;
+    color: #000000;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #0000ff;
+}
+
+a:visited {
+    color: #a52a2a;
+}
+
+.avatar {
+    width: 210px;
+    height: 300px;
+    border-radius: 70px;
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 2);
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: #696969;
+    margin: 0;
+    font-style: italic;
+    font-weight: revert;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/*.social{*/
+/*    background: burlywood;*/
+/*    padding: 10px;*/
+/*    border: 3px solid red;*/
+/*    margin: 5px;*/
+/*}*/
+.bg-yellow {
+    background: #fafad2;
+}
+
+.bg-green {
+    background: #98fb98;
+}
+
+.bg-red {
+    background: #db7093;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #696969;
+}
+
+.link-list {
+    list-style: square;
+    padding: 20px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #808080;
+
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group textarea,
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: #f8f8ff;
+    border-bottom: 1px solid #ccc;
+    color: #000000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background: #4169e1;
+    padding: 15px 20px;
+    color: #fffafa;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
